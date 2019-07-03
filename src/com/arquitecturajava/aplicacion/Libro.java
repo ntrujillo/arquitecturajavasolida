@@ -2,6 +2,8 @@ package com.arquitecturajava.aplicacion;
 
 import java.util.List;
 
+
+
 public class Libro {
 
 	
@@ -86,6 +88,7 @@ public class Libro {
 
 		String consultaSQL = "update  Libros  set titulo='" + this.titulo
 				+ "', categoria='" + categoria + "' where isbn='" + isbn + "'";
+		System.out.println(consultaSQL);
 		DataBaseHelper<Libro> helper = new DataBaseHelper<Libro>();
 		helper.modificarRegistro(consultaSQL);
 

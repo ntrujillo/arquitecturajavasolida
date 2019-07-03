@@ -14,6 +14,7 @@ import org.apache.log4j.Logger;
 
 public class DataBaseHelper<T> {
 
+	
 	/**
 	 * @author      cecilio alvarez caules contacto@arquitecturajava.com
 	 * @version     1.0                        
