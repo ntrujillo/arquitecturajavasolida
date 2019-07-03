@@ -10,7 +10,6 @@ import javax.servlet.http.HttpServletResponse;
 
 import com.arquitecturajava.aplicacion.controlador.acciones.Accion;
 
-
 /**
  * @author      cecilio alvarez caules contacto@arquitecturajava.com
  * @version     1.0                        
@@ -18,6 +17,7 @@ import com.arquitecturajava.aplicacion.controlador.acciones.Accion;
 public class ControladorLibros extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
+	
 	
 	protected void doGet(HttpServletRequest request,
 			HttpServletResponse response) throws ServletException, IOException {
