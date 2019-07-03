@@ -1,9 +1,10 @@
-package com.arquitecturajava;
+package com.arquitecturajava.aplicacion;
 
 import java.util.List;
 
 public class Libro {
 
+	
 	/**
 	 * @author      cecilio alvarez caules contacto@arquitecturajava.com
 	 * @version     1.0                        
