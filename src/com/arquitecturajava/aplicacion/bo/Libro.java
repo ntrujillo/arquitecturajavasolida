@@ -17,7 +17,7 @@ import org.hibernate.SessionFactory;
  * @version     1.0                        
  */
 @Entity
-@Table(name="Libro")
+@Table(name="book")
 public class Libro {
 	
 	@Id

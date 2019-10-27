@@ -17,7 +17,7 @@ import org.hibernate.SessionFactory;
  * @version     1.0                        
  */
 @Entity
-@Table(name = "Categoria")
+@Table(name = "category")
 public class Categoria {
 	@Id
 	private int id;
