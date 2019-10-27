@@ -17,7 +17,7 @@
 		<property name="connection.password">java</property>
 		<property name="connection.pool_size">5</property>
 		<property name="dialect">org.hibernate.dialect.MySQL5Dialect</property>
-		<property name="hibernate.hbm2ddl.auto">update</property>
+		<!--property name="hibernate.hbm2ddl.auto">update</property-->
 		<property name="show_sql">true</property>
 		<mapping class="com.arquitecturajava.aplicacion.bo.Libro" />
 		<mapping class="com.arquitecturajava.aplicacion.bo.Categoria" />

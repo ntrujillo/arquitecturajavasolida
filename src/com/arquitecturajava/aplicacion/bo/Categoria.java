@@ -2,6 +2,7 @@ package com.arquitecturajava.aplicacion.bo;
 
 import java.util.List;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
@@ -21,6 +22,7 @@ import org.hibernate.SessionFactory;
 public class Categoria {
 	@Id
 	private int id;
+	@Column(name="description")
 	private String descripcion;
 
 	@Override

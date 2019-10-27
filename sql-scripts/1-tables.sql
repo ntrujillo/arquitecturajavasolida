@@ -1,11 +1,14 @@
+DROP TABLE IF EXISTS book;
 
-CREATE TABLE IF NOT EXISTS category (
+DROP TABLE IF EXISTS category;
+
+CREATE TABLE category (
     id int,
     description VARCHAR(255),   
     PRIMARY KEY (id)     
 );
 
-CREATE TABLE IF NOT EXISTS book (
+CREATE TABLE book (
     isbn varchar(10),
     title VARCHAR(255) NOT NULL,
     category_id int,
@@ -14,4 +17,3 @@ CREATE TABLE IF NOT EXISTS book (
         REFERENCES category (id)
         ON UPDATE RESTRICT ON DELETE CASCADE    
 );
-

@@ -2,6 +2,7 @@ package com.arquitecturajava.aplicacion.bo;
 
 import java.util.List;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
@@ -22,10 +23,11 @@ public class Libro {
 	
 	@Id
 	private String isbn;
+	@Column(name="title")
 	private String titulo;
 	
 	@ManyToOne
-	@JoinColumn (name="categoria")
+	@JoinColumn (name="category_id")
 	private Categoria categoria;
 
 	
